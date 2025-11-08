@@ -7,6 +7,7 @@ This repository contains solutions and reports for the Information & Network Sec
 - [Lab 2: Attacking Classic Crypto Systems](#lab-2-attacking-classic-crypto-systems)
 - [Lab 3: Symmetric Encryption & Hashing](#lab-3-symmetric-encryption--hashing)
 - [Lab 4: Programming Symmetric & Asymmetric Crypto](#lab-4-programming-symmetric--asymmetric-crypto)
+- [Lab 5: Securing Apache Web Server](#lab-5-securing-apache-web-server)
 - [Web Lab 1: Apache Web Server Installation & Maintenance](#web-lab-1-apache-web-server-installation--maintenance)
 
 ---
@@ -78,6 +79,26 @@ This repository contains solutions and reports for the Information & Network Sec
 
 ---
 
+## Lab 5: Securing Apache Web Server
+
+**Objective**: To setup a secure web server using Apache and digital certificates.
+
+### Resources
+
+- **Task Description**: [Lab 5.md](./Lab5/Lab%205.md)
+- **Reports**:
+  - [Markdown Report](./Lab5/Lab%205%20Report.md)
+  - [PDF Report](./Lab5/Lab%205%20Report.pdf)
+
+### Checkpoints
+
+1. **Checkpoint 1** (5 marks): OpenSSL server with example.com/localhost:4433 - Test certificate with OpenSSL server and explain HTTPS connection
+2. **Checkpoint 2** (5 marks): OpenSSL server with webserverlab.com - Test certificate for webserverlab.com
+3. **Checkpoint 3** (5 marks): HTTPS on Apache for example.com - Deploy HTTPS on Apache web server
+4. **Checkpoint 4** (5 marks): HTTPS on Apache for webserverlab.com - Deploy HTTPS for webserverlab.com virtual host
+
+---
+
 ## Web Lab 1: Apache Web Server Installation & Maintenance
 
 **Objective**: To install, administer and maintain an Apache web server.
@@ -106,6 +127,7 @@ Lab/
 ├── Lab2/          # Classic crypto attacks
 ├── Lab3/          # Block cipher modes
 ├── Lab4/          # Symmetric & asymmetric crypto programming
+├── Lab5/          # Securing Apache web server with SSL/TLS
 ├── Web1/          # Apache web server installation & maintenance
 └── Readme.md      # This file
 ```
