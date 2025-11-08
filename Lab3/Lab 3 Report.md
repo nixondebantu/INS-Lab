@@ -105,10 +105,10 @@ Using GHex hex editor, the first 54 bytes (BMP header) from the original image w
 
 ### Observations
 
-**Original Image:**
+**Original Image:**  
 ![Github logo](./Task2/original.bmp)
 
-**ECB Mode:**
+**ECB Mode:**  
 ![](./Task2/pic_ecb.bmp)
 
 - The encrypted image reveals patterns from the original image
@@ -116,7 +116,7 @@ Using GHex hex editor, the first 54 bytes (BMP header) from the original image w
 - This demonstrates ECB's weakness: it does not hide data patterns effectively
 - The encrypted image shows visible patterns that can reveal information about the original image structure
 
-**CBC Mode:**
+**CBC Mode:**  
 ![](./Task2/pic_cbc.bmp)
 
 - The encrypted image appears completely random with no visible patterns

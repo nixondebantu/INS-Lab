@@ -6,6 +6,7 @@ This repository contains solutions and reports for the Information & Network Sec
 
 - [Lab 2: Attacking Classic Crypto Systems](#lab-2-attacking-classic-crypto-systems)
 - [Lab 3: Symmetric Encryption & Hashing](#lab-3-symmetric-encryption--hashing)
+- [Lab 4: Programming Symmetric & Asymmetric Crypto](#lab-4-programming-symmetric--asymmetric-crypto)
 - [Web Lab 1: Apache Web Server Installation & Maintenance](#web-lab-1-apache-web-server-installation--maintenance)
 
 ---
@@ -54,6 +55,29 @@ This repository contains solutions and reports for the Information & Network Sec
 
 ---
 
+## Lab 4: Programming Symmetric & Asymmetric Crypto
+
+**Objective**: To program symmetric & asymmetric cryptography and study their operations.
+
+### Resources
+
+- **Task Description**: [Lab 4.md](./Lab4/Lab%204.md)
+- **Solutions**:
+  - [Main Program](./Lab4/crypto_program.py) - Comprehensive cryptography program
+- **Reports**:
+  - [Markdown Report](./Lab4/Lab%204%20Report.md)
+  - [PDF Report](./Lab4/Lab%204%20Report.pdf)
+
+### Tasks
+
+1. **Task 1** (5 marks): AES encryption/decryption with 128-bit and 256-bit keys, ECB and CFB modes
+2. **Task 2** (4 marks): RSA encryption and decryption
+3. **Task 3** (4 marks): RSA signature generation and verification
+4. **Task 4** (3 marks): SHA-256 hashing
+5. **Task 5** (4 marks): Execution time measurement and performance analysis for different key sizes
+
+---
+
 ## Web Lab 1: Apache Web Server Installation & Maintenance
 
 **Objective**: To install, administer and maintain an Apache web server.
@@ -72,3 +96,26 @@ This repository contains solutions and reports for the Information & Network Sec
 3. **Checkpoint 3** (4 marks): Understand and explain virtual host behavior when accessing different domains
 4. **Checkpoint 4** (4 marks): Set up multiple virtual hosts (anothervhost.com)
 5. **Checkpoint 5** (5 marks): Deploy two dynamic websites using HTML and JavaScript on separate virtual hosts
+
+---
+
+## Project Structure
+
+```
+Lab/
+├── Lab2/          # Classic crypto attacks
+├── Lab3/          # Block cipher modes
+├── Lab4/          # Symmetric & asymmetric crypto programming
+├── Web1/          # Apache web server installation & maintenance
+└── Readme.md      # This file
+```
+
+---
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Cryptographic libraries (PyCrypto, cryptography, etc.)
+
+---
