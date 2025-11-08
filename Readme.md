@@ -5,6 +5,7 @@ This repository contains solutions and reports for the Information & Network Sec
 ## Table of Contents
 
 - [Lab 2: Attacking Classic Crypto Systems](#lab-2-attacking-classic-crypto-systems)
+- [Lab 3: Symmetric Encryption & Hashing](#lab-3-symmetric-encryption--hashing)
 - [Web Lab 1: Apache Web Server Installation & Maintenance](#web-lab-1-apache-web-server-installation--maintenance)
 
 ---
@@ -27,6 +28,29 @@ This repository contains solutions and reports for the Information & Network Sec
 
 1. **Checkpoint 1** (5 marks): Decrypt a Caesar cipher
 2. **Checkpoint 2** (15 marks): Decrypt two substitution ciphers using frequency analysis
+
+---
+
+## Lab 3: Symmetric Encryption & Hashing
+
+**Objective**: To perform symmetric encryption and hashing using OpenSSL.
+
+### Resources
+
+- **Task Description**: [Lab 3.md](./Lab3/Lab%203.md)
+- **Reports**:
+  - [Markdown Report](./Lab3/Lab%203%20Report.md)
+  - [PDF Report](./Lab3/Lab%203%20Report.pdf)
+
+### Tasks
+
+1. **Task 1** (2 marks): AES encryption using different modes (CBC, ECB, CFB)
+2. **Task 2** (3 marks): Encryption mode - ECB vs CBC (BMP image encryption analysis)
+3. **Task 3** (3 marks): Encryption mode – corrupted cipher text (error propagation analysis)
+4. **Task 4** (3 marks): Padding (study padding schemes for different modes)
+5. **Task 5** (3 marks): Generating message digest (MD5, SHA1, SHA256, SHA512)
+6. **Task 6** (3 marks): Keyed hash and HMAC (HMAC-MD5, HMAC-SHA1, HMAC-SHA256)
+7. **Task 7** (3 marks): Hash function properties (avalanche effect demonstration)
 
 ---
 

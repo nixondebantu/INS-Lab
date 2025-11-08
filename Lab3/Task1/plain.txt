@@ -1,0 +1,3 @@
+Course Title: Information & Network Security
+Task: Lab 3: Symmetric Encryption & Hashing
+Student Name: Nixon Deb Antu
